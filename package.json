@@ -1,0 +1,19 @@
+{
+  "name": "loggly-sink",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "TOKEN=xyz nodemon --inspect index.js",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
